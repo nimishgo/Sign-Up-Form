@@ -1,4 +1,149 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(/assets/Norse-Bold.otf);
+}
+
 body{
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+}
+
+div.left {
+    display: flex;
+    width: 35vw;
+    height: 100vh;    
+    background-image: url(/assets/raphael-renter-HKpulM98tw4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.left .logo {
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.4;
+    margin-bottom: 50vh;
+}
+.left .logo .with_logo {
+    font-family: Norse-Bold;
+    color: #ffffff;
+    font-size: 3em;
+}
+
+.left .logo img.odin__logo {
+    height: 4em;
+}
+
+footer {
+    font-size: 0.5em;
+    color: white;
+    align-self: flex-end;
+    position: fixed;
+    font-style: italic;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+.right .mid__block {
+    background-color: #ffffff;
+    padding: 0;
+    padding: 25px;
+    box-shadow: 0 0 5px gray;
+}
+
+.right .mid__block p{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.right .form__text {
+    width: 38vw;
+    height: 25vh;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 8vh;
+    text-align: left;
+    padding: 25px;
+}
+
+.right .form__enter {
+    display: flex;
+    gap: 20px;
+    height: 25vh;
+    width: 100%;
+    color: rgb(97, 97, 97);
+}
+
+label {
+    display: block; 
+    padding: 5px;
+    font-size: 1vw;
+    line-height: 2em;
+}
+
+input {
+    -webkit-appearance: none;
+    border: 1px solid #e5e7eb;
+    padding: 5px;
+    border-radius: 0.5rem;
+    width: 25vh;
+    height: 20px;
+}
+
+input:focus {
+    outline: none !important;
+    border:1px solid blue;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+/* input:invalid {
+    color: red;
+    border: 1px solid red;
+} */
+
+button {
+    background-color: #596d48;
+    color: #ffffff;
+    padding: 1em;
+    border-radius: 0.75em;
+    font-weight: 600;
+    border: 1px solid #8ba773;
+    width: 150px;
+    height: 5vh;
+}
+
+.right .form__submit {
+    position: absolute;
+    margin-top: 5vh;
+    display: block;
+    flex-direction: column;
+    padding: 25px;
+
+}
+
+.right .form__submit p{
+    font-weight: 600;
+}
+
+a {
+    color: #596d48;
 }
