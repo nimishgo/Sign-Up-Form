@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Norse-Bold;
-    src: url(/assets/Norse-Bold.otf);
+    font-family: norse;
+    src: url(./assets/Norse-Bold.otf);
 }
 
 body{
@@ -14,7 +14,7 @@ div.left {
     display: flex;
     width: 35vw;
     height: 100vh;    
-    background-image: url(/assets/raphael-renter-HKpulM98tw4-unsplash.jpg) , linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background-image: url(./assets/background.jpg) , linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
     background-color: #85FFBD;
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@ div.left .logo {
     margin-bottom: 50vh;
 }
 .left .logo .with_logo {
-    font-family: Norse-Bold;
+    font-family: norse;
     color: #ffffff;
     font-size: 3em;
 }
