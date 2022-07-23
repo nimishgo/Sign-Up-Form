@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="./password.js" defer></script>
 </head>
 <body>
     <div class="left">
@@ -46,7 +47,8 @@
                     <input type="number" minlength="10" maxlength="10" id="phone" required>
                     
                     <label for="confirm_password">CONFIRM PASSWORD</label>
-                    <input type="confirm_password" name="confirm_password" id="confirm_password">
+                    <input type="password" name="confirm_password" id="confirm_password">
+                    <span id="error__password"> </span>
                 </div>
             </div> 
         </div>
