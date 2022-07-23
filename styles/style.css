@@ -14,10 +14,11 @@ div.left {
     display: flex;
     width: 35vw;
     height: 100vh;    
-    background-image: url(/assets/raphael-renter-HKpulM98tw4-unsplash.jpg);
+    background-image: url("../assets/raphael-renter-HKpulM98tw4-unsplash.jpg") , linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background-color: #85FFBD;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
     font-size: 36px;
     justify-content: center;
     align-items: center;
