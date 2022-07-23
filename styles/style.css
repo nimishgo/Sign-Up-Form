@@ -1,6 +1,6 @@
 @font-face {
     font-family: norse;
-    src: url(./assets/Norse-Bold.otf);
+    src: url(./Norse-Bold.otf);
 }
 
 body{
@@ -14,7 +14,7 @@ div.left {
     display: flex;
     width: 35vw;
     height: 100vh;    
-    background-image: url(./assets/background.jpg) , linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background-image: url(./background.jpg) , linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
     background-color: #85FFBD;
     background-size: cover;
     background-repeat: no-repeat;
