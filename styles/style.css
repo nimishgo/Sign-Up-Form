@@ -147,3 +147,7 @@ button {
 a {
     color: #596d48;
 }
+
+#error__password {
+    color: red;
+}
